@@ -6,18 +6,18 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('home', '0007_remove_homepage_uytuytuy'),
+        ("home", "0007_remove_homepage_uytuytuy"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='homepage',
-            name='jhgjhgjh',
+            model_name="homepage",
+            name="jhgjhgjh",
             field=models.BigIntegerField(blank=True, null=True),
         ),
         migrations.AddField(
-            model_name='homepage',
-            name='uytuytuy',
+            model_name="homepage",
+            name="uytuytuy",
             field=models.BigIntegerField(blank=True, null=True),
         ),
     ]
